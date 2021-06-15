@@ -70,10 +70,10 @@
     }
   }
   
-/* Desktop*/
+/* Computador*/
 @media only screen and (min-width: 961px) {
     body {
-        background-color: #B2D6FF; /* Blue */
+        background-color: #B2D6FF;
       }
     .pagina {
       width: 100%;
@@ -87,11 +87,12 @@
     .cabecalho {
       height: 400px;
     }
+    .conteudo {
+        order: 2;
+      }
     .sign-up {
         height: 200px;
         order: 1;
       }
-      .conteudo {
-        order: 2;
-      }
+      
   }
