@@ -1,22 +1,22 @@
-* {
-    margin: 0;
+* {    
     padding: 0;
-    box-sizing: border-box;
     color :rgba(125,153,184,255);
+    box-sizing: border-box;
+    margin: 0;
   }
    
   
   .pagina {
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
   }
   
   .sessao {
     width: 100%;
     height: 300px;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
   }
   
   .menu {
@@ -60,12 +60,8 @@
  /* Tablets */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
     body { 
-    background-color: #F5CF8E;
-    }
-    .sign-up, 
-    .feature1,
-    .feature2,
-    .feature3 {
+    background-color: #F5CF8E;}
+    .sign-up, .feature1, .feature2, .feature3 {
       width: 50%;
     }
   }
@@ -79,10 +75,8 @@
       width: 100%;
       margin: 0 auto;
     }
-    .feature1, 
-    .feature2,
-    .feature3 {
-      width: 33.3%;
+    .feature1, .feature2, .feature3 {
+    width: 33.3%;
     }
     .cabecalho {
       height: 400px;
@@ -91,8 +85,8 @@
         order: 2;
       }
     .sign-up {
-        height: 200px;
         order: 1;
+        height: 200px;
       }
       
   }
